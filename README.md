@@ -158,3 +158,41 @@ Termos como *agente*, *harness*, *skill* e *prompt* estão explicados com analog
 O DIO Agent foi criado para acompanhar você desde o início dos Bootcamps e Formações da DIO. A ideia é simples: aprender na era da IA fica mais fácil quando você tem um mentor disponível a qualquer hora.
 
 Bons estudos, e vem com a gente. 🚀
+
+---
+
+## 📚 Minha experiência no desafio
+
+Este fork foi criado por **Giordani Martins Silva** durante a **Formação GitHub Certification**, da DIO, com o objetivo de praticar colaboração e documentação usando GitHub e Markdown.
+
+### Objetivos praticados
+
+- Criar um fork mantendo a referência ao projeto original;
+- Utilizar títulos, listas, links, tabelas e blocos de código em Markdown;
+- Registrar alterações com commits claros;
+- Trabalhar com issues, branches e pull requests;
+- Desenvolver um portfólio público de aprendizagem.
+
+### Fluxo de colaboração
+
+```text
+Fork → Branch → Alteração → Commit → Pull Request → Merge
+```
+
+### Checklist
+
+- [x] Criar o fork do repositório;
+- [x] Personalizar o README;
+- [ ] Abrir uma issue de melhoria;
+- [ ] Criar uma branch;
+- [ ] Abrir e concluir um pull request;
+- [ ] Entregar o projeto na plataforma DIO.
+
+> Este projeto representa uma etapa prática da minha evolução em Git, GitHub e colaboração em projetos de tecnologia.
+
+### Autor
+
+**Giordani Martins Silva**
+
+- GitHub: [@1giordani](https://github.com/1giordani)
+- Repositório original: [digitalinnovationone/dio-agent](https://github.com/digitalinnovationone/dio-agent)
