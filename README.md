@@ -183,9 +183,9 @@ Fork → Branch → Alteração → Commit → Pull Request → Merge
 
 - [x] Criar o fork do repositório;
 - [x] Personalizar o README;
-- [ ] Abrir uma issue de melhoria;
-- [ ] Criar uma branch;
-- [ ] Abrir e concluir um pull request;
+- [x] Abrir uma issue de melhoria;
+- [x] Criar uma branch;
+- [x] Abrir e concluir um pull request;
 - [ ] Entregar o projeto na plataforma DIO.
 
 > Este projeto representa uma etapa prática da minha evolução em Git, GitHub e colaboração em projetos de tecnologia.
