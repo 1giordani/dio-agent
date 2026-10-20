@@ -1,0 +1,16 @@
+{
+  "executado_em_utc": "2026-10-20T18:43:48.558806+00:00",
+  "python": "3.12.14",
+  "ambiente": "SQLite em memória; sem HTTP, rede ou banco externo",
+  "verificacoes": {
+    "baseline_login_valido": true,
+    "baseline_senha_errada_rejeitada": true,
+    "baseline_bypass_reproduzido": true,
+    "corrigido_login_valido": true,
+    "corrigido_senha_errada_rejeitada": true,
+    "corrigido_payload_usuario_rejeitado": true,
+    "corrigido_payload_senha_rejeitado": true
+  },
+  "todas_passaram": true,
+  "hermes_executado": false
+}

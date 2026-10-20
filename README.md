@@ -1,3 +1,46 @@
+# DIO Agent — mentor de AppSec
+
+Especialização em análise defensiva de vulnerabilidades, desenvolvida a partir de [digitalinnovationone/dio-agent](https://github.com/digitalinnovationone/dio-agent). O objetivo é aprender a investigar contexto e evidências antes de concluir que existe uma falha ou propor ações.
+
+## O que mudou
+- [Skill de análise](skills/vulnerability-analysis/SKILL.md) e [explicação](skills/vulnerability-analysis/README.md): contexto, escopo, identificação, avaliação de risco, correção e reteste.
+- [Conhecimento de segurança](agent/knowledge/security-basics.md): vulnerabilidade, ameaça, risco, tríade CIA e boas práticas.
+- [Persona](agent/persona.md) e [AGENTS.md](AGENTS.md): especialização e encaminhamento para a nova skill.
+- [Template de relatório](templates/relatorio-vulnerabilidade.md): melhoria escolhida para comparar casos em um formato consistente.
+- [Exemplo vulnerável](examples/app_vulneravel.py), [correção](app.py) e [testes](tests/test_login.py): laboratório SQLite em memória, sem servidor.
+- [Análise documentada](docs/analise-sqli.md), [critérios de avaliação](docs/cenarios-appsec.md) e [prompts](prompts/01-contexto-servidor.txt).
+
+A especialização usa instruções em Markdown; não treina nem ajusta pesos de um modelo. Arquivos e contribuições anteriores foram preservados abaixo e no histórico.
+
+## Executar o laboratório
+Use Python 3.10 ou superior. O laboratório utiliza somente a biblioteca padrão, sem instalação de pacotes.
+
+```bash
+git clone https://github.com/1giordani/dio-agent.git
+cd dio-agent
+python app.py
+python -m unittest discover -v
+python -m tools.validar_lab
+python -m tools.validar_estrutura
+```
+
+No Windows, se necessário, substitua python por py. Os bancos são criados em memória e descartados ao encerrar. O exemplo inseguro é isolado para comparação didática; app.py contém a implementação corrigida.
+
+## Executar o agente
+Siga o [guia do Hermes](docs/hermes-appsec.md). Configure o harness e o provedor conforme a documentação oficial e rode hermes **na raiz deste repositório**. Solicite a leitura de AGENTS.md, da persona e da skill. Ter arquivos em skills/ não garante sua instalação no catálogo nativo do harness.
+
+Os [prompts](prompts/02-revisao-sqli.txt) permitem revisar o laboratório. Para o cenário Ubuntu, o agente deve perguntar sobre o contexto ausente antes de sugerir comandos. Não é necessário escanear servidores para usar este projeto.
+
+## Validação e evidências
+Os testes locais verificam a reprodução da falha no exemplo e a rejeição das mesmas entradas no código corrigido, preservando login válido e nomes com apóstrofos. [Resultados](evidencias/README.md) registram a execução real. A conferência de estrutura verifica arquivos, frontmatter e registros da skill.
+
+**O Hermes não foi executado nesta preparação.** Não há capturas ou respostas de agente fabricadas. Os testes Python não comprovam que um modelo seguirá a skill; esse comportamento tem um [roteiro de avaliação](docs/cenarios-appsec.md) próprio. O código didático também não substitui um sistema completo de autenticação.
+
+## Entrega
+Use a raiz pública https://github.com/1giordani/dio-agent. Uma descrição curta está em [ENTREGA-DIO.md](ENTREGA-DIO.md). Assista às aulas e realize a avaliação no Hermes antes de declarar essas etapas concluídas.
+
+## Documentação original e contribuições anteriores
+
 # 🤖 DIO Agent
 
 > Seu mentor de Inteligência Artificial para aprender mais e melhor na [DIO](https://dio.me).
@@ -196,3 +239,4 @@ Fork → Branch → Alteração → Commit → Pull Request → Merge
 
 - GitHub: [@1giordani](https://github.com/1giordani)
 - Repositório original: [digitalinnovationone/dio-agent](https://github.com/digitalinnovationone/dio-agent)
+

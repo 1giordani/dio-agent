@@ -1,0 +1,16 @@
+test_aspas_em_nome_legitimo (tests.test_login.LoginTests.test_aspas_em_nome_legitimo) ... ok
+test_baseline_demonstra_falha (tests.test_login.LoginTests.test_baseline_demonstra_falha) ... ok
+test_injecao_na_senha_bloqueada (tests.test_login.LoginTests.test_injecao_na_senha_bloqueada) ... ok
+test_injecao_no_usuario_bloqueada (tests.test_login.LoginTests.test_injecao_no_usuario_bloqueada) ... ok
+test_integridade_apos_entrada_maliciosa (tests.test_login.LoginTests.test_integridade_apos_entrada_maliciosa) ... ok
+test_login_valido (tests.test_login.LoginTests.test_login_valido) ... ok
+test_salts_distintos (tests.test_login.LoginTests.test_salts_distintos) ... ok
+test_senha_incorreta (tests.test_login.LoginTests.test_senha_incorreta) ... ok
+test_senha_nao_e_persistida_em_texto (tests.test_login.LoginTests.test_senha_nao_e_persistida_em_texto) ... ok
+test_tipo_e_tamanho_invalidos (tests.test_login.LoginTests.test_tipo_e_tamanho_invalidos) ... ok
+test_usuario_inexistente (tests.test_login.LoginTests.test_usuario_inexistente) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.678s
+
+OK

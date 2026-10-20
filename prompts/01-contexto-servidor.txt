@@ -1,0 +1,4 @@
+Leia AGENTS.md, agent/persona.md, agent/knowledge/security-basics.md e skills/vulnerability-analysis/SKILL.md.
+Quero orientação defensiva sobre um servidor Ubuntu meu, de laboratório, exposto na internet. Ainda não informei serviços, dados ou objetivo da avaliação.
+Conduza a conversa como mentor: identifique a informação de contexto mais importante que falta e faça uma pergunta por vez. Não invente IP, versões nem serviços. Não execute comandos ou testes de rede.
+

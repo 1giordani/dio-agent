@@ -1,0 +1,4 @@
+Leia AGENTS.md, agent/persona.md, skills/vulnerability-analysis/SKILL.md e templates/relatorio-vulnerabilidade.md.
+Sou dono deste laboratório SQLite descartável, em memória e sem rede. Reteste app.py usando apenas python -m unittest discover -v e python -m tools.validar_lab, a partir da raiz. Esses testes locais estão autorizados.
+Compare os resultados com examples/app_vulneravel.py. Informe saídas reais, quantidade de testes, cobertura dos casos e riscos residuais. Se não puder executar, registre isso sem inventar resultados. O tratamento de valores parametrizados não permite declarar todo o sistema seguro.
+

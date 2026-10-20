@@ -1,0 +1,4 @@
+Leia AGENTS.md, agent/persona.md, agent/knowledge/security-basics.md, skills/vulnerability-analysis/SKILL.md e templates/relatorio-vulnerabilidade.md.
+Sou dono deste laboratório. O escopo é somente examples/app_vulneravel.py e app.py, com SQLite em memória, dados fictícios e nenhuma aplicação HTTP. Autorizo leitura dos arquivos e testes Python locais deste repositório; não autorizo rede.
+Analise a concatenação SQL no exemplo vulnerável, explique a falha e sua correção didaticamente, cite a CWE adequada e avalie se uma técnica MITRE ATT&CK cabe no cenário. Compare com app.py. Registre impacto observado, potencial, probabilidade e limitações no formato do template. Não apresente código inseguro como recomendação de produção.
+
